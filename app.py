@@ -1,5 +1,5 @@
 from fastapi import FastAPI, Request
-
+from evolution_api import send_whatsapp_message
 # from message_buffer import buffer_message
 
 
@@ -16,6 +16,10 @@ async def webhook(request: Request):
         #     chat_id=chat_id,
         #     message=message,
         # )
+        send_whatsapp_message(
+            number=chat_id,
+            text=f'O texto é \n{message}\n\n Obrigado por enviar a mensagem! ',
+        )
         print("Ola Mundo")
 
     return {'status': 'ok'}
