@@ -3,10 +3,10 @@ import shutil
 
 from langchain_community.document_loaders import PyPDFLoader, TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-# from langchain_openai import OpenAIEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
 
-from config import RAG_FILES_DIR, VECTOR_STORE_PATH
+from config import RAG_FILES_DIR, VECTOR_STORE_PATH, HUGGINGFACE_API_KEY
 
 
 def load_documents():
@@ -36,15 +36,12 @@ def get_vectorstore():
             chunk_overlap=200,
         )
         splits = text_splitter.split_documents(docs)
-    #     return Chroma.from_documents(
-    #         documents=splits,
-    #         embedding=OpenAIEmbeddings(),
-    #         persist_directory=VECTOR_STORE_PATH,
-    #     )
-    # return Chroma(
-    #     embedding_function=OpenAIEmbeddings(),
-    #     persist_directory=VECTOR_STORE_PATH,
-    # )
+        return Chroma.from_documents(
+            documents=splits,
+            embedding=HuggingFaceEmbeddings(),
+            persist_directory=VECTOR_STORE_PATH,
+        )
     return Chroma(
+        embedding_function=HuggingFaceEmbeddings(),
         persist_directory=VECTOR_STORE_PATH,
     )

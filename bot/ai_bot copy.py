@@ -9,7 +9,6 @@ from config import (
     GROQ_API_KEY
 )
 
-
 class AIBot:
 
     def __init__(self):
