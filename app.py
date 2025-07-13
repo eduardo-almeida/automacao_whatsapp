@@ -13,6 +13,8 @@ async def webhook(request: Request):
     data = await request.json()
     chat_id = data.get('data').get('key').get('remoteJid')
     message = data.get('data').get('message').get('conversation')
+    nome = data.get('data').get('pushName')
+    
 
     if chat_id and message and not '@g.us' in chat_id:
         response = ai_bot.invoke(question=message)
