@@ -9,6 +9,8 @@ from langchain_chroma import Chroma
 from config import RAG_FILES_DIR, VECTOR_STORE_PATH, HUGGINGFACE_API_KEY
 
 
+HUGGINGFACE_API_KEY = os.getenv('HUGGINGFACE_API_KEY')
+
 def load_documents():
     docs = []
     processed_dir = os.path.join(RAG_FILES_DIR, 'processed')

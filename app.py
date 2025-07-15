@@ -6,7 +6,7 @@ from chains import get_conversational_rag_chain
 
 app = FastAPI()
 ai_bot = AIBot()
-# conversational_rag_chain = get_conversational_rag_chain()
+conversational_rag_chain = get_conversational_rag_chain()
 
 @app.post('/webhook')
 async def webhook(request: Request):
@@ -17,15 +17,20 @@ async def webhook(request: Request):
     
 
     if chat_id and message and not '@g.us' in chat_id:
-        response = ai_bot.invoke(question=message)
-        # response = conversational_rag_chain.invoke(
-        #     input= {'input': message},
-        #     config= {'configuration': {'session_id': chat_id,}},
-        # )['answer']
+        # response = ai_bot.invoke(question=message)
+        # send_whatsapp_message(
+        #     number=chat_id,
+        #     text=response,
+        # )
 
+        ai_response = conversational_rag_chain.invoke(
+            input= {'input': message},
+            config= {'configurable': {'session_id': chat_id,}},
+        )['answer']
+        
         send_whatsapp_message(
             number=chat_id,
-            text=response,
+            text=ai_response,
         )
 
     return {'status': 'ok'}
