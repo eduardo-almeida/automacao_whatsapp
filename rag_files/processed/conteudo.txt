@@ -1,0 +1,215 @@
+[
+  {
+    "kit": kit 1,
+    "composicao_do_kit": [
+      {
+        "quantidade": 1,
+        "item": "Amêndoa de castanha de caju",
+        "embalagem": "pouche",
+        "peso_g": 100
+      },
+      {
+        "quantidade": 1,
+        "item": "Barra de castanha de caju com mel e açúcar mascavo",
+        "peso_g": 60
+      },
+      {
+        "quantidade": 1,
+        "item": "Barrinha de castanha de caju",
+        "peso_g": 70
+      },
+      {
+        "quantidade": 1,
+        "item": "Biscoito de castanha de caju",
+        "peso_g": 100
+      },
+      {
+        "quantidade": 1,
+        "item": "Doce crocante de castanha de caju",
+        "peso_g": 60
+      },
+      {
+        "quantidade": 1,
+        "item": "Doce crocante de castanha de caju com açúcar de coco",
+        "peso_g": 30
+      },
+      {
+        "quantidade": 1,
+        "item": "Paçoquinha de castanha de caju",
+        "peso_g": 60
+      },
+      {
+        "quantidade": 1,
+        "item": "Tijolinho de castanha de caju",
+        "peso_g": 40
+      },
+      {
+        "quantidade": 1,
+        "item": "Tortinha de caju",
+        "peso_g": 100
+      }
+    ]
+  },
+  {
+    "kit": kit 2,
+    "composicao_do_kit": [
+      {
+        "quantidade": 1,
+        "item": "Amêndoa de castanha de caju",
+        "embalagem": "pouche",
+        "peso_g": 400
+      },
+      {
+        "quantidade": 1,
+        "item": "Amêndoa de castanha de caju",
+        "embalagem": "pouche",
+        "peso_g": 100
+      },
+      {
+        "quantidade": 1,
+        "item": "Barra de castanha de caju com mel e açúcar mascavo",
+        "peso_g": 60
+      },
+      {
+        "quantidade": 1,
+        "item": "Barrinha de castanha de caju",
+        "peso_g": 70
+      },
+      {
+        "quantidade": 1,
+        "item": "Biscoito de castanha de caju",
+        "peso_g": 100
+      },
+      {
+        "quantidade": 1,
+        "item": "Doce crocante de castanha de caju",
+        "peso_g": 60
+      },
+      {
+        "quantidade": 1,
+        "item": "Doce crocante de castanha de caju com açúcar de coco",
+        "peso_g": 30
+      },
+      {
+        "quantidade": 1,
+        "item": "Paçoquinha de castanha de caju",
+        "peso_g": 60
+      },
+      {
+        "quantidade": 1,
+        "item": "Pasta de castanha de caju",
+        "peso_g": 160
+      },
+      {
+        "quantidade": 1,
+        "item": "Pasta de caju",
+        "variacao": "integral ou crunchy",
+        "peso_g": 160
+      },
+      {
+        "quantidade": 1,
+        "item": "Tijolinho de castanha de caju",
+        "peso_g": 40
+      },
+      {
+        "quantidade": 1,
+        "item": "Tortinha de caju",
+        "peso_g": 100
+      }
+    ]
+  },
+  {
+    "kit": kit 3,
+    "composicao_do_kit": [
+      {
+        "quantidade": 2,
+        "item": "Amêndoa de castanha de caju",
+        "embalagem": "pouche",
+        "peso_g": 100
+      },
+      {
+        "quantidade": 1,
+        "item": "Barra de castanha de caju com mel e açúcar mascavo",
+        "peso_g": 60
+      },
+      {
+        "quantidade": 1,
+        "item": "Doce crocante de castanha de caju com açúcar de coco",
+        "peso_g": 30
+      },
+      {
+        "quantidade": 1,
+        "item": "Paçoquinha de castanha de caju",
+        "variacao": "zero adição de açúcares",
+        "peso_g": 40
+      },
+      {
+        "quantidade": 1,
+        "item": "Sequilho de castanha de caju",
+        "variacao": "zero adição de açúcares",
+        "peso_g": 70
+      }
+    ]
+  },
+  {
+    "kit": kit 4,
+    "composicao_do_kit": [
+      {
+        "quantidade": 3,
+        "item": "Amêndoa de castanha de caju",
+        "embalagem": "pouche",
+        "peso_g": 100
+      },
+      {
+        "quantidade": 1,
+        "item": "Barra de castanha de caju com mel e açúcar mascavo",
+        "peso_g": 60
+      },
+      {
+        "quantidade": 1,
+        "item": "Barrinha de castanha de caju",
+        "peso_g": 70
+      },
+      {
+        "quantidade": 1,
+        "item": "Biscoito de castanha de caju",
+        "peso_g": 100
+      },
+      {
+        "quantidade": 1,
+        "item": "Doce crocante de castanha de caju",
+        "peso_g": 60
+      },
+      {
+        "quantidade": 1,
+        "item": "Doce crocante de castanha de caju com açúcar de coco",
+        "peso_g": 30
+      },
+      {
+        "quantidade": 1,
+        "item": "Pasta de castanha de caju",
+        "peso_g": 160
+      },
+      {
+        "quantidade": 1,
+        "item": "Paçoquinha de castanha de caju",
+        "peso_g": 60
+      },
+      {
+        "quantidade": 1,
+        "item": "Sequilho de castanha de caju",
+        "peso_g": 70
+      },
+      {
+        "quantidade": 1,
+        "item": "Tijolinho de castanha de caju",
+        "peso_g": 40
+      },
+      {
+        "quantidade": 1,
+        "item": "Tortinha de caju",
+        "peso_g": 100
+      }
+    ]
+  }
+]

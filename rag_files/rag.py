@@ -13,7 +13,7 @@ os.environ['HUGGINGFACE_API_KEY'] = config('HUGGINGFACE_API_KEY')
 
 
 if __name__ == '__main__':
-    file_path = '/app/rag_files/tudo.txt'
+    file_path = '/app/rag_files/conteudo.txt'
     # file_path = '/app/rag/institucional CARDEAL.txt'
     # file_path = '/app/rag/produtos CARDEAL.txt'
     loader = TextLoader(file_path)

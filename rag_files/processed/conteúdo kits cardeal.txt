@@ -1,0 +1,9 @@
+Temos 4 kits e cada um tem um conjunto de itens. Vou detalhar eles agora:
+
+KIT 1 possue : 01 Amêndoa de castanha de caju (pouche 100g). 01 Barra de castanha de caju com mel e açúcar mascavo (60g). 01 Barrinha de castanha de caju (70g).01 Biscoito de castanha de caju (100g). 01 Doce crocante de castanha de caju (60g). 01 Doce crocante de castanha de caju com açúcar de coco (30g). 01 Paçoquinha de castanha de caju (60g). 01 Tijolinho de castanha de caju (40g). 01 Tortinha de caju (100g)
+
+KIT 2 possue : 01 Amêndoa de castanha de caju (pouche 400g). 01 Amêndoa de castanha de caju (pouche 100g). 01 Barra de castanha de caju com mel e açúcar mascavo (60g). 01 Barrinha de castanha de caju (70g). 01 Biscoito de castanha de caju (100g). 01 Doce crocante de castanha de caju (60g). 01 Doce crocante de castanha de caju com açúcar de coco (30g). 01 Paçoquinha de castanha de caju (60g). 01 Pasta de castanha de caju (160g). 01 Pasta de caju – integral ou crunchy (160g). 01 Tijolinho de castanha de caju (40g).01 Tortinha de caju (100g). 
+
+KIT 3 possue : 02 Amêndoa de castanha de caju (pouche 100g). 01 Barra de castanha de caju com mel e açúcar mascavo (60g). 01 Doce crocante de castanha de caju com açúcar de coco (30g). 01 Paçoquinha de castanha de caju – zero adição de açúcares (40g). 01 Sequilho de castanha de caju – zero adição de açúcares (70g)
+
+KIT 4 possue : 03 Amêndoa de castanha de caju (pouche 100g). 01 Barra de castanha de caju com mel e açúcar mascavo (60g). 01 Barrinha de castanha de caju (70g). 01 Biscoito de castanha de caju (100g). 01 Doce crocante de castanha de caju (60g). 01 Doce crocante de castanha de caju com açúcar de coco (30g). 01 Pasta de castanha de caju (160g). 01 Paçoquinha de castanha de caju (60g). 01 Sequilho de castanha de caju (70g). 01 Tijolinho de castanha de caju (40g). 01 Tortinha de caju (100g)

@@ -14,7 +14,11 @@ async def webhook(request: Request):
     chat_id = data.get('data').get('key').get('remoteJid')
     message = data.get('data').get('message').get('conversation')
     nome = data.get('data').get('pushName')
+    BOT_NUMBER = "558588103155@s.whatsapp.net" 
     
+    # if chat_id == BOT_NUMBER:
+    #     print("==================================================================")
+        # return {'status': 'ok'}
 
     if chat_id and message and not '@g.us' in chat_id:
         # response = ai_bot.invoke(question=message)
